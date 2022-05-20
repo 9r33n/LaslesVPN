@@ -101,10 +101,9 @@ button {
 .main {
     display: flex;
     gap: 41px;
-    max-width: 1200px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1250px;
+    justify-content: space-between;
+    margin-left: 270px;
     margin-bottom: 103px;
 }
 
@@ -156,7 +155,7 @@ button {
 
 .review {
     display: flex;
-    max-width: 1140px;
+    max-width: 950px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -164,7 +163,7 @@ button {
     align-items: center;
     padding: 40px 91px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px ;
 }
 
 .review-content {
@@ -250,6 +249,7 @@ button {
 
 .plan {
     background-color: #F6F6F6;
+    background: linear-gradient(to bottom, #F6F6F6, #FFFFFF);
 }
 
 .plan-content {
@@ -635,6 +635,7 @@ button {
     border-radius: 10px;
     color: #F53838;
     border: 2px solid #F53838;
+    background-color: #FFFFFF;
 }
 
 .subscribe-button:hover button {
@@ -657,7 +658,7 @@ button {
     z-index: 1;
     position: relative;
     margin: 63px;
-    max-width: 1440px;
+    max-width: 1300px;
     width: 100%;
     display: flex;
     margin-left: auto;
