@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .all {
     font-family: 'Rubik', sans-serif;
 }
